@@ -1,0 +1,77 @@
+html
+{
+    height: 85%;
+    margin: 0;
+}
+body
+{
+    background-image: url("church-648430_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+}
+.main
+{
+    margin: 3% auto;
+    width: 90%;
+    min-height: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.top
+{
+    background-color: white;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    border-radius: 20px;
+    border: 3px rgba(0, 0, 0, 0.8) solid;
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+    font: black;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 1;
+}
+.kloc
+{
+    padding: 5% 0% 20%;
+}
+.button
+{
+    margin: 5% 9% 5% 9%;
+    width: 20%;
+    border: 3px rgba(0, 0, 0, 0.8) solid;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5% 5%;
+    background-color: rgba(240, 248, 255, 0.8);
+    float: left;
+    font: black;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.link:link
+{
+    color: black;
+}
+.link:visited
+{
+    color: black;
+}
+.link:hover
+{
+    color: black;
+}
+.link:active
+{
+    color: black;
+}
