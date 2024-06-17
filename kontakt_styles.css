@@ -10,16 +10,23 @@ body
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    height: 85%;
 }
 .head
 {
-    display: flex;
-    justify-content: center;
+    width: 50%;
+    transform: translate(85%, -50%);
+    font: black;
+    font-size: calc(1vw + 1vh);
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 1;
 }
 .top
 {
+    transform: translate(0%, 0%);
     background-color: white;
     width: 90%;
+    height: 7.6%;
     position: absolute;
     left: 5%;
     right: 5%;
@@ -28,11 +35,13 @@ body
 }
 .main
 {
+    display: flex;
+    justify-content: center;
     margin: 3% auto;
     width: 90%;
-    height: 550px;
+    min-height: 100%;
     border-radius: 10px;
-    padding: 10px;
+    padding: 2%;
     background-color: rgba(240, 248, 255, 0.5);
 }
 .back
