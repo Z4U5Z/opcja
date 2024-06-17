@@ -7,7 +7,7 @@ body
 {
     height: 85%;
     margin: 0;
-    background-image: url("/Background/mountain.jpg");
+    background-image: url("Background/mountain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
