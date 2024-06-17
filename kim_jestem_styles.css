@@ -99,7 +99,7 @@ a
 {
     position: absolute;
     top: 50%;
-    transform: translate(0, 0%);
+    transform: translate(0, -70%);
     text-align: justify;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font: black;
